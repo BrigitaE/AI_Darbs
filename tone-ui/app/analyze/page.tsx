@@ -14,3 +14,11 @@ export default function AnalyzePage() {
     </div>
   );
 }
+"use client";
+
+import { useState } from "react";
+
+"use client";
+git add tone-ui/app/analyze/page.tsx
+git commit -m "fix: add 'use client' directive to analyze page"
+git push
