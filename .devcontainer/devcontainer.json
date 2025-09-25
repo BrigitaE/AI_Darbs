@@ -1,0 +1,17 @@
+{
+  "name": "tone-app",
+  "image": "mcr.microsoft.com/devcontainers/typescript-node:20",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "github.copilot",
+        "github.copilot-chat"
+      ],
+      "settings": {
+        "editor.inlineSuggest.enabled": true
+      }
+    }
+  },
+  "remoteUser": "node",
+  "postCreateCommand": "node -v && npm -v"
+}
